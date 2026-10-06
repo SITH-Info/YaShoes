@@ -1,0 +1,6 @@
+{
+  "name": "YaShoes - Premium Footwear Store",
+  "description": "Full-fledged contemporary footwear e-commerce store featuring high-performance runners, minimalist leather sneakers, trail boots, interactive 3D shoe customizer, size guides, cart, wishlist, and seamless checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

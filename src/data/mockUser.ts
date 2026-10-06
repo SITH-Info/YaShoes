@@ -1,0 +1,70 @@
+import { UserProfile } from '../types';
+
+export const DEMO_USER: UserProfile = {
+  id: 'usr-89241',
+  name: 'Shubham Yadav',
+  email: 'Shubhamchor@gmail.com',
+  phone: '+91 98765 43210',
+  preferredSize: 10,
+  preferredWidth: 'Regular',
+  archType: 'Neutral',
+  clubTier: 'Gold',
+  clubPoints: 1450, // 1450 pts = ₹1,450 voucher value
+  joinDate: 'January 2025',
+  notificationsEnabled: true,
+  addresses: [
+    {
+      id: 'addr-1',
+      title: 'Home',
+      fullName: 'Shubham Yadav',
+      street: '42, 010 Salt Pan Road, Sangam nagar',
+      city: 'Mumbai',
+      state: 'Maharashtra',
+      zipCode: '400037',
+      country: 'India',
+      phone: '+91 98765 43210',
+      isDefault: true,
+    },
+    {
+      id: 'addr-2',
+      title: 'Studio / Office',
+      fullName: 'Shubham Yadav',
+      street: 'Flat 402, Embassy Heights, Magrath Rd',
+      city: 'Mumbai',
+      state: 'Mumbai',
+      zipCode: '40037',
+      country: 'India',
+      phone: '+91 98765 43210',
+      isDefault: false,
+    },
+  ],
+  paymentMethods: [
+    {
+      id: 'pm-1',
+      type: 'upi',
+      title: 'Google Pay UPI',
+      identifier: 'baapkaupi@okaxis',
+      isDefault: true,
+    },
+    {
+      id: 'pm-2',
+      type: 'card',
+      title: 'HDFC Millennia Credit Card',
+      identifier: '•••• 4821',
+      expiry: '09/29',
+      isDefault: false,
+    },
+  ],
+  returns: [
+    {
+      id: 'ret-1042',
+      orderId: 'YS-849201',
+      productName: 'YaShoes AeroKnit Flux 01',
+      size: 9.5,
+      reason: 'Size exchange for US 10 (Half size larger needed)',
+      status: 'Refund Processed',
+      refundAmount: 185,
+      date: 'Feb 14, 2026',
+    },
+  ],
+};
